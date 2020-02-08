@@ -20,7 +20,7 @@ public class Teacher {
   }
 
   public void addNewStudent(Student newStudent) {
-    List<Student> studentList = new ArrayList<Student>(Arrays.asList(myStudent));
+    List<Student> studentList = new ArrayList<>(Arrays.asList(myStudent));
     studentList.add(newStudent);
     myStudent = studentList.toArray(new Student[0]);
   }
