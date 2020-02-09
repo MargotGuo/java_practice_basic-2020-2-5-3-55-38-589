@@ -1,9 +1,9 @@
 package model;
 
 public class Student {
-  public String name;
-  public int age;
-  public String gender;
+  private String name;
+  private int age;
+  private String gender;
 
   public Student(String name, int age, String gender) {
     this.name = name;
@@ -17,5 +17,17 @@ public class Student {
 
   public void rest() {
     System.out.println("rest...");
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public int getAge() {
+    return age;
+  }
+
+  public String getGender() {
+    return gender;
   }
 }

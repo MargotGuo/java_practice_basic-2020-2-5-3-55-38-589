@@ -5,7 +5,7 @@ public class Application {
 
     public static void main(String[] args) {
         Student LiLi = new Student("Li Li", 20, "female");
-        System.out.println(String.format("%s, %s, %d years old", LiLi.name, LiLi.gender, LiLi.age));
+        System.out.println(String.format("%s, %s, %d years old", LiLi.getName(), LiLi.getGender(), LiLi.getAge()));
         LiLi.study();
         LiLi.rest();
 
