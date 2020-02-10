@@ -13,6 +13,6 @@ public class Application {
             new Student("Li Li", 20, "female"),
             new Student("Wang Qi", 21, "male")});
         ZhangLong.addNewStudent(new Student("Zhao Yi", 22, "male"));
-        ZhangLong.getAllStudent();
+        ZhangLong.getAllStudents();
     }
 }
